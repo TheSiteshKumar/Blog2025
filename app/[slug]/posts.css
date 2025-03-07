@@ -1,0 +1,51 @@
+/* Hide the specific div */
+body > div > main > div > div.container.mx-auto.px-4.sm\:px-6.lg\:px-8.-mt-16.relative.z-10 > div > div:nth-child(1) > div.p-0 > div.prose.prose-lg.max-w-none > div > div.border-b.border-stone-200.bg-white.p-2.dark\:bg-gray-800 > div {
+  display: none;
+}
+
+
+/* Variables for your brand colors */
+:root {
+  --brand-blue: #0066cc;       /* Your primary blue */
+  --brand-blue-dark: #004c99;  /* Darker blue for hover states */
+  --brand-blue-light: #e6f0ff; /* Light blue for backgrounds */
+}
+
+/* Basic link styling */
+a {
+  color: var(--brand-blue);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+
+
+/* Active state (when clicking) */
+a:active {
+  color: #003366;
+}
+
+/* Focus state (for accessibility) */
+a:focus {
+  outline: 2px solid var(--brand-blue);
+  outline-offset: 2px;
+}
+
+/* Text selection styling */
+::selection {
+  background-color: var(--brand-blue);
+  color: white;
+}
+
+/* Firefox requires its own property */
+::-moz-selection {
+  background-color: var(--brand-blue);
+  color: white;
+}
+
+
+/* Paragraphs */
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
