@@ -196,7 +196,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
               <p className="text-sm text-center md:text-left">
-                © {new Date().getFullYear()} Ascensive HR Consultants Pvt. Ltd. All rights reserved.
+                © {new Date().getFullYear()} , All rights reserved.
               </p>
               <div className="flex items-center text-sm text-gray-400">
                 <span className="px-2">|</span>
