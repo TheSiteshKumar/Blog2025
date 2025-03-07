@@ -122,5 +122,5 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
   // Pre-fetch the post data on the server
   const postData = await getPostData(params.slug);
   
-  return <BlogPostView slug={params.slug} initialPostData={postData} />;
+  return <BlogPostView slug={params.slug}  />;
 }
